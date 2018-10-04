@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        body{
+            font-family: Algerian ;
+        }
+        div{
+            background-color: springgreen;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            width: 500px;
+        }
+        #round-all{
+            border: 10px solid green;
+            border-radius: 20px;
+        }
+        #Round-Two{
+            border: 10px solid orangered;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            box-shadow: 0 0 15px black;
+        }
+        #movie{
+            border-top: 60px solid orangered;
+            border-bottom: 60px solid orangered;
+            border-left: 80px solid black;
+            border-right: 80px solid black;
+            margin: 0;
+            background-color: black;
+
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<!-- BORDER TOP -->
+<div style="border-top: 7px solid orangered">
+    <h1>BORDER TOP</h1>
+</div>
+
+<!-- BORDER RIGHT -->
+<div style="border-right:7px solid yellow ">
+    <h1>BORDER RIGHT</h1>
+</div>
+
+<!-- BORDER BOTTOM -->
+<div style="border-bottom: 7px solid blue">
+    <h1>BORDER BOTTOM</h1>
+</div>
+
+<!-- BORDER LEFT -->
+<div style="border-left: 7px solid mediumvioletred">
+    <h1>BORDER LEFT</h1>
+</div>
+
+<!-- BORDER ALL SIDES -->
+<div style="border: 7px solid red">
+    <h1>BORDER ALL</h1>
+</div>
+
+<!-- ROUNDER BORDER ALL SIDES -->
+<div id="round-all">
+    <h1>ROUNDED ALL</h1>
+</div>
+
+<!-- ROUNDED TWO SIDES -->
+<div id="Round-Two">
+    <h1>ROUNDED TWO</h1>
+</div>
+
+<!-- CUSTOM BORDER -->
+<div id="movie">
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/ZvMiQRsi0jI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+</body>
+</html>
