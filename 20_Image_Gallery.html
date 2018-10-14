@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+
+        .image-section{
+            margin-left: 25px;
+
+        }
+
+        .image{
+            width: 300px;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 8px;
+            text-align: center;
+            transition: all 1s ;
+            float: left;
+
+        }
+        .image:hover{
+            box-shadow: 0 0 15px black;
+        }
+
+        .image-gallery{
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 15px;
+
+
+        }
+
+        .image-gallery img{
+            width: inherit;
+            height: inherit;
+            transition: 1s;
+            cursor: pointer;
+            border-radius:15px ;
+        }
+
+        .image-gallery:hover img{
+            transform: scale(1.3,1.3);
+        }
+
+        .image p{
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+<section class="image-section">
+    <article class="image">
+    <div class="image-gallery">
+        <img src="img/IMG_8123.JPG" width="600" height="400">
+    </div>
+        <p>Image 1</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/background-biker-clouds-207171.jpg" width="600" height="400">
+    </div>
+        <p>Image 2</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/wallpaper2you_354515.jpg" width="600" height="400">
+        </div>
+        <p>Image 3</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/back-light-background-blur-754898.jpg" width="600" height="400">
+    </div>
+        <p>Image 4</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/adorable-animal-background-image-207166.jpg" width="600" height="400">
+    </div>
+        <p>Image 5</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/aquatic-aquatic-plant-background-image-158551.jpg" width="600" height="400">
+    </div>
+        <p>Image 6</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/alone-animal-blurred-background-955463.jpg" width="600" height="400">
+    </div>
+        <p>Image 7</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/astronomy-beautiful-constellations-813269.jpg" width="600" height="400">
+    </div>
+        <p>Image 8</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/alcohol-beverage-black-background-1028637.jpg" width="600" height="400">
+    </div>
+        <p>Image 9</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/roland-denes-800152-unsplash.jpg" width="600" height="400">
+    </div>
+        <p>Image 10</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/cool-sunset-background-wallpaper-hd.jpg" width="600" height="400">
+    </div>
+        <p>Image 11</p>
+    </article>
+
+    <article class="image">
+        <div class="image-gallery">
+        <img src="img/architecture-background-buildings-218983.jpg" width="600" height="400">
+    </div>
+        <p>Image 12</p>
+    </article>
+</section>
+</body>
+</html>
